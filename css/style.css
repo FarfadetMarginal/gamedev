@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    scroll-behavior: smooth;
+    transition: all 0.5s ease-in-out;
+    font-family: "Zen Dots";
+}
+
+
+/* header */
+
+header{
+    background-color: blanchedalmond; 
+    display: flex;
+
+}
+
+
+header a{
+    text-decoration: none;
+}
+header ul{
+    display: flex;
+    list-style: none;
+}
