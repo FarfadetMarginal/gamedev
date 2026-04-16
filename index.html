@@ -13,15 +13,17 @@
 <body>
     <section id="s1">
         <header>
+            <input type="checkbox" id="burgercheck">
             <a href="#"><img src="img/3347912f856c161594fe0f09d59ad943d34f4e75.png" alt="pti logo"></a>
             <nav>
                 <ul>
                     <li><a href="#">Home</a></li>
-                    <li><a href="#">Projects</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Contact</a></li>
+                    <li><a href="#s3">Projects</a></li>
+                    <li><a href="#s4">About</a></li>
+                    <li><a href="#s5">Contact</a></li>
                 </ul>
             </nav>
+            <label id="burgerdiv" for="burgercheck"><i class="fa-solid fa-bars"></i></label>
         </header>
         <div id="s1d1">
             <p>Welcome, we are a cool</p>
@@ -61,13 +63,21 @@
             <p class="minititre">Popular Platforms</p>
             <h3>We develop games for the most phasellus ut interdum nunc, vel pretium ligula nam tincidunt enim ut ligula vehicula non.</h3>
             <div id="ptilien">
-                <a class="futurjs" href="#"><span>PC</span><i class="fa-solid fa-angle-down"></i></a>
+                <details><summary class="futurjs"><span>PC</span><i id="flechedown" class="fa-solid fa-angle-down"></i><i id="flecheup" class="fa-solid fa-angle-up"></i></summary>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate laborum eius pariatur, optio aspernatur delectus id amet facere iste autem corrupti alias. Illo cum amet repudiandae nostrum quaerat voluptate repellat.</p>
+                </details>
                 <hr>
-                <a class="futurjs" href="#"><span>Console</span><i class="fa-solid fa-angle-down"></i></a>
+                <details><summary class="futurjs"><span>Console</span><i id="flechedown" class="fa-solid fa-angle-down"></i><i id="flecheup" class="fa-solid fa-angle-up"></i></summary>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate laborum eius pariatur, optio aspernatur delectus id amet facere iste autem corrupti alias. Illo cum amet repudiandae nostrum quaerat voluptate repellat.</p>
+                </details>
                 <hr>
-                <a class="futurjs" href="#"><span>Mobile</span><i class="fa-solid fa-angle-down"></i></a>
+               <details><summary class="futurjs"><span>Mobile</span><i id="flechedown" class="fa-solid fa-angle-down"></i><i id="flecheup" class="fa-solid fa-angle-up"></i></summary>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate laborum eius pariatur, optio aspernatur delectus id amet facere iste autem corrupti alias. Illo cum amet repudiandae nostrum quaerat voluptate repellat.</p>
+                </details>
                 <hr>
-                <a class="futurjs" href="#"><span>AR/VR</span><i class="fa-solid fa-angle-down"></i></a>
+                <details><summary class="futurjs"><span>AR/VR</span><i id="flechedown" class="fa-solid fa-angle-down"></i><i id="flecheup" class="fa-solid fa-angle-up"></i></summary>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate laborum eius pariatur, optio aspernatur delectus id amet facere iste autem corrupti alias. Illo cum amet repudiandae nostrum quaerat voluptate repellat.</p>
+                </details>
                 <hr>
             </div>
         </article>
